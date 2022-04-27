@@ -35,3 +35,7 @@ type CarAbs=boolean
      abs:absAvail
  };
  console.log(car)
+
+
+
+ export 
