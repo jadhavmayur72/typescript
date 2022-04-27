@@ -1,6 +1,10 @@
+"use strict";
+exports.__esModule = true;
+exports.addition = void 0;
 var aa = "hello world";
 var bb = 4;
-function addition() {
-    return aa + bb;
+function addition(code) {
+    return code + aa;
 }
-console.warn(addition());
+exports.addition = addition;
+console.warn(addition("hello world"));
